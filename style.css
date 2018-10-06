@@ -1,0 +1,27 @@
+.sidebar {
+    background-color: black;
+    width: 20%;
+    height: 100%;
+    float: left;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.list {
+    list-style: none;
+    line-height: 150%;
+    text-align: center;
+}
+button {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.maincontain {
+    float: right;
+    background-color: white;
+}
+.viewMaincontain {
+    display: none;
+}
