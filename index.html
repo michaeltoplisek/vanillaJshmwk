@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -21,16 +22,17 @@
     </ul>
   </div>
 
-  <div class="maincontain viewMaincontain">
-    <div class="viewBtn"></div>
-    <div class="addBtn">
-      <label>Name: </label><input value="name" type="text" class="nameInput">
-      <label>Office: </label><input value="office" type="text" class="officeInput">
-      <label>Phone: </label><input value="phone" type="text" class="phoneInput">
+  <div class="maincontain">
+    <div id="viewID" class="viewBtn"></div>
+    <div id="inputLine" class="inputClass hide">
+        <label>Name: </label><input type="text" class="nameInput">
+        <label>Office: </label><input type="text" class="officeInput">
+        <label>Phone: </label><input type="text" class="phoneInput">      
     </div>
-    <div class="verifyBtn"></div>
-    <div class="updateBtn"></div>
-    <div class="deleteBtn"></div>
+    <div id="addID"  class="addBtn hide"></div>
+    <div id="verifyID"  class="verifyBtn"></div>
+    <div id="updateID"  class="updateBtn"></div>
+    <div id="deleteID"  class="deleteBtn"></div>
 
   </div>
 

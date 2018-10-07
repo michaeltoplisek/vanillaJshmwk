@@ -22,3 +22,6 @@ button {
     float: right;
     background-color: white;
 }
+.hide {
+    display: none;
+}
