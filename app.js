@@ -37,9 +37,9 @@ const showAdd = function () {
     const newOffice = $(".officeInput").val()
     const newPhone = $(".phoneInput").val()
     const newEmployee = {
-        'name': `${newName}`,
-        'officeNum': `${newOffice}`,
-        'phoneNum': `${newPhone}`,
+        name: `'${newName}'`,
+        officeNum: `${newOffice}`,
+        phoneNum: `'${newPhone}'`,
     }
     employeeList.push(`${newEmployee}`)
 }
